@@ -1,0 +1,11 @@
+services:
+  metadatarr:
+    image: ghcr.io/karanravindra/metadatarr:latest
+    container_name: metadatarr
+    environment:
+      - HOST=localhost
+      - POST=8080
+      - USERNAME=admin
+      - PASSWORD=password
+      - INTERVAL=60
+    restart: unless-stopped
