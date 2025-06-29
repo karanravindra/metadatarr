@@ -1,0 +1,10 @@
+[project]
+name = "metadatarr"
+version = "0.1.0"
+description = "A tool for managing and enriching metadata using qbittorrent and environment configuration."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "python-dotenv>=1.1.1",
+    "qbittorrent-api>=2025.5.0",
+]
